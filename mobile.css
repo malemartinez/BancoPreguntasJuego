@@ -1,0 +1,19 @@
+.welcome-section h1{
+  font-size: 3rem;
+}
+.welcome-section h4{
+  font-size: 2rem;
+}
+.question p{
+  font-size: 1.6rem;
+  padding-left: 0px;
+}
+.question-box .options{
+  font-size: 1.5rem;
+}
+.modal-answer-box .modal-title{
+  font-size: 1.6rem;
+}
+.modal-answer-box .modal-points{
+  font-size: 1.4rem;
+}

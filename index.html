@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./mobile.css" media="(max-width: 425px)">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>CONCURSO DE PREGUNTAS Y RESPUESTAS</title>
+</head>
+<body>
+  <section class="welcome-section">
+    <i class="fas fa-bone icon"></i>
+    <h1>Bienvenido/a!!</h1>
+    <h4>Mira qué tanto sabes de la anatomia de tu cuerpo</h4>
+    <button class="start-button"> Iniciar Juego</button>
+  </section>
+
+  <section class="questions-section">
+
+    <section class="userFormSection">
+      <div class="userForm-Box">
+        <p>Ingresa tu nombre</p>
+        <input type="text" required placeholder="Tu nombre">
+      </div>
+    </section>
+
+    <div class="header">
+      <p class="header-title">Puntos:</p>
+      <p class="header-counter">0</p>
+    </div>
+    <div class="question-box">
+      <div class="question">
+        <p>¿Cuántos huesos tiene el cuerpo humano?</p>
+      </div>
+      <div class="options">
+        <div class="option-item">
+          <p>300</p> </div>
+        <div class="option-item">
+          <p>216</p> </div>
+        <div class="option-item">
+          <p>306</p> </div>
+        <div class="option-item">
+          <p>206</p> </div>
+      </div>
+    </div>
+    <div class="button-box">
+      <button class="question-button">¡Me rindo!</button>
+    </div>
+  </section>
+
+  <section class="modal-answer">
+    <div class="modal-answer-box">
+      <i class="fas fa-times close-icon"></i>
+      <p class="modal-title">Acabas de abandonar el juego</p>
+      <p class="modal-points">Puntos Acumulados</p>
+      <p class="modal-counter">200</p>
+      <p class="modal-msm">Que me vaya no significa que no quiera saber la respuesta 
+      </p>
+      <a class="modal-link" >Ver respuesta</a>
+      
+    </div>
+
+  </section>
+  <script src="./questions.js"></script>
+  <script src="./dom.js"></script>
+  <script src="./clases.js"></script>
+  <script src="./INDEX.JS"></script>
+</body>
+</html>
