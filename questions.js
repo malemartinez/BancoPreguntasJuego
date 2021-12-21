@@ -278,6 +278,7 @@
   
 ]
 localStorage.setItem('Questions', JSON.stringify(Questions) )
+localStorage.setItem('usuarios', JSON.stringify( []) )
 
 // PERSISTENCIA DE DATOS EN EL LOCALSTORAGE
 const data = JSON.parse(localStorage.getItem('Questions'))
