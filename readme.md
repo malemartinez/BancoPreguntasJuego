@@ -19,5 +19,5 @@ Las preguntas del juego se cargan en el localstorage del navegador para luego po
 
 ## Deployment
 Si quieres jugar y ver cómo funciona sigue el enlace. 
-### :fa-chain-broken: [Ver Juego](https://malemartinez.github.io/BancoPreguntasJuego/ "Ver Juego")
+### [Ver Juego](https://malemartinez.github.io/BancoPreguntasJuego/ "Ver Juego")
 ###### Que lo disfrutes!!
